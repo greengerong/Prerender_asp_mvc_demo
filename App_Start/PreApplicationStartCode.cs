@@ -18,7 +18,7 @@ namespace Demo
             {
                 _isStarting = true;
 
-                DynamicModuleUtility.RegisterModule(typeof(Prerender_asp_mvc.PrerenderModule));
+                DynamicModuleUtility.RegisterModule(typeof(Prerender.io.PrerenderModule));
             }
         }
     }
